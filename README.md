@@ -6,6 +6,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/MRCountryPicker.svg?style=flat)](http://cocoapods.org/pods/MRCountryPicker)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+This is a fork of xtrinch/MRCountryPicker for my own needs : textColor for the name and phone label. Code added for the swift version only. 
+
 Currently compatible with swift 2.2 and objective C. Swift 3 compatibility is planned.
 
 ## Example
