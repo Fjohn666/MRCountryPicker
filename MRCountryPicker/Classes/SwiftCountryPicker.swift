@@ -24,6 +24,7 @@ public class MRCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDa
     var countries: [Country]!
     public var countryPickerDelegate: MRCountryPickerDelegate?
     public var showPhoneNumbers: Bool = true
+	public var textColor: UIColor = UIColor.blackColor()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -134,6 +135,9 @@ public class MRCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDa
         if !showPhoneNumbers {
             resultView.countryCodeLabel.hidden = true
         }
+		resultView.countryNameLabel.textColor = self.textColor
+		resultView.countryCodeLabel.textColor = self.textColor
+		
         return resultView
     }
     
